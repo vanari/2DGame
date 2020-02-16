@@ -15,12 +15,12 @@ public:
     void update();
     void render();
     void clean();
-
     bool running(){ return isRunning; }
+
+    static SDL_Renderer* renderer;
 
 private:
     uint32_t count = 0;
     bool isRunning;
     SDL_Window* window;
-    SDL_Renderer* renderer; 
 };
