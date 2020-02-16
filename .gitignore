@@ -1,2 +1,5 @@
 # Build directory
 build/
+
+# Some vs code crap
+.vscode/
